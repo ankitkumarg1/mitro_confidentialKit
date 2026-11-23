@@ -1,0 +1,10 @@
+algorithm:
+  - compress using lzma
+  - encrypt using aes-256-gcm
+  - shuffle
+
+defaultNamespace: create Secrets
+
+secrets:
+  - name: baseURL
+    value: "https://dummyjson.com/"
